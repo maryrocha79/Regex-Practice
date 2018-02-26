@@ -1,0 +1,7 @@
+/ Write a function that takes a string and deletes all words that end in ing?
+function deleteEnd (string2) {
+
+  console.log(string2.replace(/ing/g,' '));
+}
+
+deleteEnd("I'm a string with ing");

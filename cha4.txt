@@ -1,0 +1,9 @@
+// Write a function that takes a string and returns true if it is an email address? Compare your answer with your neighbor.
+
+
+function itIsEmail(string3) {
+  var email= /\^(S+@\S+\.\S+)$/;
+  console.log(email.test(string3));
+}
+
+itIsEmail('mary@yahoo@yuiio.com');

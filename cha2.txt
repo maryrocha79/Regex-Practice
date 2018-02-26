@@ -1,0 +1,6 @@
+/ Write a function expression that takes a string replaces all instances of symantec with semantic?
+
+function replace (string) {
+  console.log(string.replace(/symantec/i,'semantic'));
+}
+replace('Symantec is where I go every day.');

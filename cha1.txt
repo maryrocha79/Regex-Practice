@@ -1,0 +1,9 @@
+// Write a function that takes a word and returns true if the word ends with tonica
+
+
+function matchTonica (word) {
+  let match= /tonica$/;
+  console.log(match.test(word));
+}
+
+matchTonica('paptonicap');
