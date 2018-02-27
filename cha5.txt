@@ -1,1 +1,8 @@
 // Write a function that takes a string containing names separated by commas like "Leah, Russell, Michelle" and returns an array of names, ["Leah", "Russell", "Michelle"]
+
+
+function stringToArray (string4){
+  console.log(string4.split(','));
+}
+
+stringToArray('julian,juan,maru');
